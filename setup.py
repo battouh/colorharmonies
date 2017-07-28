@@ -2,7 +2,7 @@
 from setuptools import setup
 
 setup(name='colorharmonies',
-      version='0.1',
+      version='1.0',
       description='Library to generate all your color harmonies with simplicity!',
       url='https://github.com/baptistemanteau/colorharmonies',
       author='Baptiste Manteau',
@@ -10,9 +10,6 @@ setup(name='colorharmonies',
       license='MIT',
       packages=['colorharmonies'],
       python_requires='>=3',
-      install_requires=[
-          'colorsys',
-      ],
       test_suite='nose.collector',
       tests_require=['nose'],
       zip_safe=False)
