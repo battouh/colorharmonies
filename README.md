@@ -15,5 +15,6 @@ Simple library to generate color harmonies (monochromatic, complementary, analog
 Code running with Python 3.x
 
 ```
+pip install colorharmonies
 
 ```
