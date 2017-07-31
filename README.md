@@ -35,15 +35,16 @@ pip install colorharmonies
 
 ## Manual
 
-Color is an object with 3 attributes RGB, HLS, HSV.
-RGB : [int(0 to 255), int(0 to 255), int(0 to 255)]
-HLS : [int(O to 360), int(0 to 100), int(0 to 100)]
-HSV : [int(O to 360), int(0 to 100), int(0 to 100)]
+Color is an object with 3 attributes RGB, HLS, HSV: 
+* RGB : [int(0 to 255), int(0 to 255), int(0 to 255)]
+* HLS : [int(0 to 360), int(0 to 100), int(0 to 100)]
+* HSV : [int(0 to 360), int(0 to 100), int(0 to 100)]
 
 Each attribute represents one color space.
 
-```
+
 ### Import all functions
+```
 from colorharmonies import Color, complementaryColor, triadicColor, splitComplementaryColor, tetradicColor, analogousColor, monochromaticColor
 ```
 
