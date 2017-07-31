@@ -2,7 +2,7 @@
 from setuptools import setup
 
 setup(name='colorharmonies',
-      version='1.0.1',
+      version='1.0.4',
       description='Library to generate all your color harmonies with simplicity!',
       url='https://github.com/baptistemanteau/colorharmonies',
       author='Baptiste Manteau',
